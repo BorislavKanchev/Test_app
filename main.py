@@ -30,7 +30,7 @@ def save_to_database():
 
         conn.close()
     else:
-        messagebox.showwarning('Warning', 'Please enter both first name and last name.')
+        messagebox.showwarning('Внимание', 'Please enter both first name and last name.')
 
 def display_records():
     conn = sqlite3.connect("users.db")
